@@ -38,6 +38,15 @@
 						},
 						"required": true
 					},
+					"cpe": {
+						"type": "string"
+					},
+					"cookies": {
+						"type": "object",
+						"additionalProperties": {
+							"type": "string"
+						}
+					},
 					"js": {
 						"type": "object",
 						"additionalProperties": {
@@ -45,12 +54,6 @@
 						}
 					},
 					"headers": {
-						"type": "object",
-						"additionalProperties": {
-							"type": "string"
-						}
-          },
-          "cookies": {
 						"type": "object",
 						"additionalProperties": {
 							"type": "string"
@@ -88,7 +91,7 @@
 						"additionalProperties": {
 							"type": "string"
 						}
-          },
+					},
 					"script": {
 						"type": [
 							"string",
